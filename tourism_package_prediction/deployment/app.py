@@ -13,6 +13,7 @@ model_path = hf_hub_download(
 # Load model
 model = joblib.load(model_path)
 
+#Application Title
 st.title("Tourism Package Purchase Prediction")
 st.write(
     "This application predicts whether a customer is likely to purchase the "
